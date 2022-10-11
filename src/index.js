@@ -3,18 +3,18 @@ import ReactDOM from "react-dom/client"; //we use ReactDOM to render into the DO
 
 // only update the value of this array
 const navlinkItems = [
-  <li class="nav-item">
-    <a class="nav-link" href="#">
+  <li key={0} className="nav-item">
+    <a className="nav-link" href="#google">
       Link to google.com
     </a>
   </li>,
-  <li class="nav-item">
-    <a class="nav-link" href="#">
+  <li key={1} className="nav-item">
+    <a className="nav-link" href="#facebook">
       Link to facebook.com
     </a>
   </li>,
-  <li class="nav-item">
-    <a class="nav-link" href="#">
+  <li key={2} className="nav-item">
+    <a className="nav-link" href="#amazon">
       Link to amazon.com
     </a>
   </li>,
